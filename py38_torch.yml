@@ -1,0 +1,22 @@
+name: py38_torch
+channels:
+  - conda-forge
+  - defaults
+  - mrtrix3 
+  - pytorch
+
+dependencies:
+  - python=3.8
+  - ipython
+  - cudatoolkit
+  - matplotlib
+  - mrtrix3
+  - nibabel
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - pytorch
+  - pytorch-lightning
+  - tensorboard
+  - torchvision
