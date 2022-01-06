@@ -2,17 +2,12 @@ name: py38_torch
 channels:
   - conda-forge
   - defaults
-  - mrtrix3 
-  - nvidia
   - pytorch
 
 dependencies:
   - python=3.8
   - ipython
-  - cudatoolkit
-  - cuda
   - matplotlib
-  - mrtrix3
   - nibabel
   - numpy
   - pandas

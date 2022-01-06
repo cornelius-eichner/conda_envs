@@ -1,8 +1,9 @@
-name: py38_tf
+name: py38_torch
 channels:
   - conda-forge
   - defaults
   - nvidia
+  - pytorch
 
 dependencies:
   - python=3.8
@@ -15,6 +16,7 @@ dependencies:
   - pandas
   - scipy
   - scikit-learn
+  - pytorch
+  - pytorch-lightning
   - tensorboard
-  - tensorflow
-  - tensorflow-gpu
+  - torchvision
