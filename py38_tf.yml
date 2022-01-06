@@ -1,0 +1,20 @@
+name: py38
+channels:
+  - conda-forge
+  - defaults
+  - mrtrix3 
+
+dependencies:
+  - python=3.8
+  - ipython
+  - matplotlib
+  - mrtrix3
+  - nibabel
+  - numpy
+  - pandas
+  - pytorch 
+  - scipy
+  - scikit-learn
+  - tensorboard
+  - tensorflow
+  
