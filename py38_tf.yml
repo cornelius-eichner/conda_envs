@@ -12,7 +12,6 @@ dependencies:
   - nibabel
   - numpy
   - pandas
-  - pytorch 
   - scipy
   - scikit-learn
   - tensorboard
