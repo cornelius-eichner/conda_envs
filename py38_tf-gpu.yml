@@ -2,10 +2,13 @@ name: py38_tf
 channels:
   - conda-forge
   - defaults
+  - nvidia
 
 dependencies:
   - python=3.8
   - ipython
+  - cudatoolkit
+  - cuda
   - matplotlib
   - nibabel
   - numpy
@@ -14,4 +17,4 @@ dependencies:
   - scikit-learn
   - tensorboard
   - tensorflow
-  
+  - tensorflow-gpu
